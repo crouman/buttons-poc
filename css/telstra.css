@@ -1,0 +1,64 @@
+/* Telstra styling */
+
+/*primary*/
+.btn-primary, .btn-primary:after{
+	background-color:#a0148c !important;
+}
+
+.btn-primary:hover, .btn-primary:hover:after{
+	background-color:#640064 !important;
+}
+
+/*success*/
+.btn-success, .btn-success:after{
+	background-color:#009b46 !important;
+}
+
+.btn-success:hover, .btn-success:hover:after{
+	background-color:#005a28 !important;
+}
+
+.btn{
+	font-family:'open sans';
+	padding: 14px 0 14px 20px;
+	border: none;
+	border-radius:0;
+	text-decoration: none;
+	display: inline-block;
+	white-space: nowrap;
+	margin: 0 44px 0 0;
+	position: relative;
+	outline: none;
+	line-height: normal;
+	max-width: 100%;
+}
+
+.btn:after{
+	font-family:'tca_icon';
+	content: "\e90f";
+	width: 45px;
+	height: 100%;
+	position: absolute;
+	right: -45px;
+	top: 0;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 50px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.btn.split{
+	padding-right:14px;
+}
+
+.btn.split:after{
+	border-left:1px solid #fff;
+}
+
+/*MODALS*/
+#squared-modal .modal-content{
+	border-radius:0;
+}
