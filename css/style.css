@@ -1,0 +1,51 @@
+/* CSS Document */
+
+body{	
+	font-family:'Open Sans', Verdana, Geneva, sans-serif;
+	font-size:1.0em;
+	margin:0;
+	padding:0;
+}
+
+a{
+	color:#007FFF;
+}
+
+p{
+	font-weight:300;
+}
+
+p.large{
+	font-size:2.0em;
+	font-weight:300;
+}
+
+p.tag{
+	font-family:'Source Code Pro';
+	font-size:0.8em;
+}
+
+#header{
+	background-color:#F97C00;
+	height:120px;
+}
+
+#breadcrumbs{
+	/*background-color:#F97C00;*/
+	font-size:0.8em;
+	font-weight:600;
+	margin:0;
+	padding:10px;
+}
+#breadcrumbs a{
+	color:#FFF;
+	font-weight:400;
+}
+
+#header ul li{
+	color:#FFF;
+	list-style-type:none;
+	float:left;
+}
+	
+	
